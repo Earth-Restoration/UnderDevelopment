@@ -24,10 +24,10 @@
 1. PRIMARY STYLES
 --------------------------------- */
 
-html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; }
+html{ font-size: 100%; height: 100%; width: 100%; overflow-x: hidden; margin: 0px;  padding: 0px; touch-action: manipulation; overflow-y: hidden;}
 
 
-body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+body{ font-size: 16px; font-family: 'Open Sans', sans-serif; width: 100%; height:100%; margin: 0; font-weight: 400;overflow-y: hidden;
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; overflow-x: hidden; 
 	color: #333; }
 
@@ -110,7 +110,7 @@ b.light-color{ color: #444; }
 3. MAIN SECTION
 --------------------------------- */
 
-.main-area{ position: relative; height: 100vh; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; }
+.main-area{ position: relative; z-index: 1; padding: 0 20px; background-size: cover; color: #fff; height:94%; }
 
 .main-area:after{ content:''; position: absolute; top: 0; bottom: 0;left: 0; right: 0; z-index: -1;  
 	opacity: .4; background: #000; }
@@ -132,3 +132,8 @@ b.light-color{ color: #444; }
 	
 .main-area .social-btn > li > a:hover:after{ transform: translateX(100%); }
 
+/* ------
+4.Footer
+-------*/
+
+.footer{height: 6%;}
