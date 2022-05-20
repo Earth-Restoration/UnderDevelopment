@@ -2,4 +2,4 @@
  This is for the Under development page
  
  
- Link: https://earth-restoration.github.io/UnderDevelopment/
+link: https://lifeforceproject.restore.earth/
